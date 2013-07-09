@@ -6,7 +6,7 @@ Examples
 --
 * To disable all notifications on a host
 
-    .\nagios-interaction.ps1 -CURL\_USER "TestUser" -CURL\_USER\_PASSWORD "MyPassword" -GROUP\_NAME "MyHostGroup" -GROUP\_TYPE "Host" -NAGIOS\_WEB\_DOMAIN "127.0.0.1" -NAGIOS\_COMMAND "25"
+    .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "Host" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "25"
 
 * To enable all notifications on a host
 
@@ -40,7 +40,7 @@ This script has a number of tests to ensure that the correct commands are built.
 
 Further Nagios Commands
 --
-For a full list of Nagios commands that can be invoked, please see their [documentation]()
+For a full list of Nagios commands that can be invoked, please see their [documentation](http://old.nagios.org/developerinfo/externalcommands/commandlist.php)
 
 
 
