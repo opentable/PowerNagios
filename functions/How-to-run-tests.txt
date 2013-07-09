@@ -1,0 +1,8 @@
+cd to this directory
+
+Import-Module .\Pester\Pester.psm1
+
+Invoke-Pester
+
+This will run all tests in this location
+
