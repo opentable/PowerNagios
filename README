@@ -8,7 +8,6 @@ Examples
 
     .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "Host" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "25"
 
-
 * To enable all notifications on a host
 
     .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "Host" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "24"
@@ -41,7 +40,7 @@ This script has a number of tests to ensure that the correct commands are built.
 
 Further Nagios Commands
 --
-For a full list of Nagios commands that can be invoked, please see their [documentation](http://old.nagios.org/developerinfo/externalcommands/commandlist.php)
+For a full list of Nagios commands that can be invoked, please see their <a href="http://old.nagios.org/developerinfo/externalcommands/commandlist.php">documentation</a>
 
 
 
