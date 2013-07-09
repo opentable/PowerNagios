@@ -10,23 +10,23 @@ Examples
 
 * To enable all notifications on a host
 
-    .\nagios-interaction.ps1 -CURL\_USER "TestUser" -CURL\_USER\_PASSWORD "MyPassword" -GROUP\_NAME "MyHostGroup" -GROUP\_TYPE "Host" -NAGIOS\_WEB\_DOMAIN "127.0.0.1" -NAGIOS\_COMMAND "24"
+    .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "Host" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "24"
 
 * To disable all notifications on a specific host group
 
-    .\nagios-interaction.ps1 -CURL\_USER "TestUser" -CURL\_USER\_PASSWORD "MyPassword" -GROUP\_NAME "MyHostGroup" -GROUP\_TYPE "HostGroup" -NAGIOS\_WEB\_DOMAIN "127.0.0.1" -NAGIOS\_COMMAND "66"
+    .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "HostGroup" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "66"
 
 * To enable all notifications on a specific host group
 
-    .\nagios-interaction.ps1 -CURL\_USER "TestUser" -CURL\_USER\_PASSWORD "MyPassword" -GROUP\_NAME "MyHostGroup" -GROUP\_TYPE "HostGroup" -NAGIOS\_WEB\_DOMAIN "127.0.0.1" -NAGIOS\_COMMAND "65"
+    .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "HostGroup" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "65"
 
 * To disable all notifications on a specific service group
 
-    .\nagios-interaction.ps1 -CURL\_USER "TestUser" -CURL\_USER\_PASSWORD "MyPassword" -GROUP\_NAME "MyHostGroup" -GROUP\_TYPE "ServiceGroup" -NAGIOS\_WEB\_DOMAIN "127.0.0.1" -NAGIOS\_COMMAND "112"
+    .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "ServiceGroup" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "112"
 
 * To enable all notifications on a specific service group
 
-    .\nagios-interaction.ps1 -CURL\_USER "TestUser" -CURL\_USER\_PASSWORD "MyPassword" -GROUP\_NAME "MyHostGroup" -GROUP\_TYPE "ServiceGroup" -NAGIOS\_WEB\_DOMAIN "127.0.0.1" -NAGIOS\_COMMAND "111"
+    .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "ServiceGroup" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "111"
 
 Tests
 --
