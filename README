@@ -35,12 +35,12 @@ This script has a number of tests to ensure that the correct commands are built.
 * Go to the functions directory
 * Open a PowerShell window
 * Run the command 'Import-Module .\Pester\Pester.psm1'
-* Then run Invoke-Pester
+* Then run 'Invoke-Pester'
 * All tests in the current functions directory will run
 
 Further Nagios Commands
 --
-For a full list of Nagios commands that can be invokes, please see their [documentation]()
+For a full list of Nagios commands that can be invoked, please see their [documentation]()
 
 
 
