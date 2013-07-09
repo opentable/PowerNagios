@@ -5,9 +5,9 @@ This is a PowerShell script that will allow you to enable / disable notification
 Examples
 --
 * To disable all notifications on a host
-
+```posh
     .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "Host" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "25"
-
+```
 * To enable all notifications on a host
 
     .\nagios-interaction.ps1 -CURL_USER "TestUser" -CURL_USER_PASSWORD "MyPassword" -GROUP_NAME "MyHostGroup" -GROUP_TYPE "Host" -NAGIOS_WEB_DOMAIN "127.0.0.1" -NAGIOS_COMMAND "24"
