@@ -1,5 +1,4 @@
 param(
-
     [Parameter(
             Mandatory=$true,
             HelpMessage="Username of a nagios user (this must include domain where appropriate)")]
